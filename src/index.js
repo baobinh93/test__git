@@ -8,17 +8,17 @@ import { createStore } from "redux";
 //import { rootReducer } from "./DemoRedux/redux/reducer";
 //import { rootReducer } from "./BaiTapGIoHang-Redux/redux/reducers";
 
-import { rootReducer } from "./ToDolist/Redux/reducers";
+//import { rootReducer } from "./ToDolist/Redux/reducers";
 
-let store = createStore(
-  rootReducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-);
+// let store = createStore(
+//   rootReducer,
+//   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+// );
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
+  // <Provider store={store}>
+  <App />,
+  //</Provider>,
   document.getElementById("root")
 );
 
