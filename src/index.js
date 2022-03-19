@@ -6,7 +6,9 @@ import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import { createStore } from "redux";
 //import { rootReducer } from "./DemoRedux/redux/reducer";
-import { rootReducer } from "./BaiTapGIoHang-Redux/redux/reducers";
+//import { rootReducer } from "./BaiTapGIoHang-Redux/redux/reducers";
+
+import { rootReducer } from "./ToDolist/Redux/reducers";
 
 let store = createStore(
   rootReducer,

@@ -4,12 +4,13 @@ import BaiTapGioHang from "./BaiTapGIoHang/BaiTapGioHang";
 
 import DemoRedux from "./DemoRedux/DemoRedux";
 import BaiTapGioHangRedux from "./BaiTapGIoHang-Redux/BaiTapGioHang-Redux";
-
+import ToDoList from "./ToDolist/ToDoList";
 function App() {
   return (
-    <BaiTapGioHang />
+    // <BaiTapGioHang />
     //<DemoRedux />
     // <BaiTapGioHangRedux />
+    <ToDoList />
   );
 }
 
